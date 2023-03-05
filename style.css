@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,600;0,700;1,600;1,700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --AlmostWhite: hsl(0, 0%, 98%);
+    --MediumGray: hsl(0, 0%, 41%);
+    --AlmostBlack: hsl(0, 0%, 8%);
+}
+body,html{
+    height: 100%;
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+}
+.barra_nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.lista_container{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    width: 90%;
+    margin-top: 30px;
+}
+li{
+    margin-left: 25px;
+}
+li ul{
+    display: none;
+    list-style: none;
+    padding: 7px;
+    position: absolute;
+}
+li:hover ul{
+    display: block;
+}
+li ul li{
+    list-style: none;
+    margin: 0;
+}
+
+li ul li:hover{
+    background-color: lightgrey;
+    border-radius: 10px;
+}
+.item1{
+    margin-right: 30px;
+    padding-top: 10px;
+    
+}
+.item2{
+    margin: 0;
+    padding-bottom: 3px;
+    text-align: center;
+    width: 130px;
+    border-radius: 10px;
+    display: flex;
+}
+.submenu1{
+    margin-top: 18px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px 5px var(--MediumGray);
+}
+.item2:hover{
+    background-color: lightgrey;
+}
+ul .item2 svg{
+    margin-left: 15px;
+    margin-bottom: 2px;
+}
+ul .item2 svg{
+    margin-left: 17px;
+    margin-top: 5px;
+    
+}
+ul .item2 .hover{
+    display: none;
+    text-align: start;
+    
+    
+}
+ul .item2:hover .hover{
+    display: block;
+    padding-left: 4px;
+    
+}
+.item3{
+    margin: 0;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    width: 130px;
+    border-radius: 10px;
+    display: flex;
+}
+.item3:hover{
+    background-color: lightgrey;
+
+}
+ul .item3 svg{
+    margin-left: 15px;
+    margin-top: 5px;
+    
+}
+
+ul .item3 .hover{
+    display: none;
+    text-align: start;
+    
+    
+}
+ul .item3:hover .hover{
+    display: block;
+    
+}
+.sublista4{
+    text-align: start;
+}
+.submenu2{ 
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 5px 5px 5px var(--MediumGray);
+}
+.item4{
+    margin: 0;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    width: 80px;
+    border-radius: 10px;
+}
+.item4:hover{
+    background-color: lightgrey;
+}
+
+.item5{
+    margin: 0;
+    margin-left: 60px;
+    padding-bottom: 3px;
+    padding-left: 5px;
+    width: 80px;
+    border-radius: 10px;
+}
+.item5:hover{
+    background-color: lightgrey;
+}
+.item6{
+    margin-left: 360px;
+    height: 35px;
+    width: 110px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.item6:hover{
+    height: 35px;
+    width: 110px;
+    border-radius: 25px;
+    background-color: var(--AlmostBlack);
+    color: var(--AlmostWhite);
+}
+.item7{
+    height: 35px;
+    width: 110px;
+    margin-left: 80px;
+    background-color: var(--AlmostWhite);
+    border-radius: 25px;
+    font-family: 'Epilogue', sans-serif;
+}
+.item7:hover{
+    background-color: var(--AlmostBlack);
+    color: var(--AlmostWhite);
+}
+.container_1{
+    margin: auto;
+    margin-top: 30px;
+    height: 510px;
+    width: 1000px;
+    display: flex;
+    
+}
+.seccion1{
+    height: 100%;
+    width: 60%;
+
+}
+.titulo_1{
+    height: 30%;
+    width: 89%;
+    font-family: 'Epilogue', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    margin-top: 115px;
+}
+.descripcion_parte1{
+    height: 95px;
+    width: 75%;
+    color: var(--MediumGray);
+    font-size: 18px;
+    font-weight: 400;
+}
+.leer_mas{
+    height: 40px;
+    width: 110px;
+    border-radius: 16px;
+    background-color: var(--AlmostWhite);
+    border: 1px solid black;
+}
+.leer_mas:hover{
+    background-color: var(--AlmostBlack);
+    color: var(--AlmostWhite);
+}
+.logos{
+    display: flex;
+    align-items: end;
+    height: 100px;
+    width: 100%;
+
+}
+.logos_peque svg{
+    margin-left: 25px;
+}
+.seccion2{
+    height: 100%;
+    width: 40%;
+}
+.seccion2 img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
